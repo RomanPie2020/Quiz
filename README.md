@@ -2,8 +2,6 @@
 
 A full-stack web application for creating and managing custom quizzes with multiple question types.
 
-![Quiz Builder](https://via.placeholder.com/800x400/1a1a2e/8B5CF6?text=Quiz+Builder)
-
 ## 🚀 Features
 
 - **Multiple Question Types**: Support for True/False, Text Input, and Multiple Choice questions
@@ -25,33 +23,6 @@ A full-stack web application for creating and managing custom quizzes with multi
 - **React 19**
 - **TypeScript**
 - Vanilla CSS with custom design system
-
-## 📁 Project Structure
-
-```
-quiz-builder/
-├── backend/                 # Express.js API server
-│   ├── src/
-│   │   ├── index.ts        # Server entry point
-│   │   ├── prisma.ts       # Prisma client
-│   │   ├── types.ts        # TypeScript types
-│   │   └── routes/
-│   │       └── quizzes.ts  # Quiz API routes
-│   └── prisma/
-│       ├── schema.prisma   # Database schema
-│       └── seed.ts         # Seed data script
-├── frontend/               # Next.js application
-│   └── src/
-│       ├── app/           # App router pages
-│       │   ├── page.tsx           # Home page
-│       │   ├── create/page.tsx    # Quiz creation
-│       │   ├── quizzes/page.tsx   # Quiz list
-│       │   └── quizzes/[id]/      # Quiz detail
-│       ├── components/    # React components
-│       ├── services/      # API client
-│       └── types/         # TypeScript types
-└── README.md
-```
 
 ## 🚀 Getting Started
 
