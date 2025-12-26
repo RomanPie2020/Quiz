@@ -1,0 +1,115 @@
+.questionsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.questionsTitle {
+  margin: 0;
+}
+
+.errorBox {
+  padding: 12px 16px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #f87171;
+  font-size: 0.875rem;
+}
+
+.questionBuilderHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.typeWaitWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.typeSelect {
+  width: auto;
+  padding: 8px 40px 8px 12px;
+}
+
+.questionTextGroup {
+  margin-bottom: 16px;
+}
+
+.optionsLabel {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.checkboxHint {
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 8px;
+}
+
+.optionToggleButton {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+  padding: 0;
+}
+
+.optionToggleButtonCorrect {
+  border-color: var(--success);
+  background: var(--success);
+}
+
+.optionToggleButtonBoolean {
+  border-radius: 50%;
+}
+
+.optionToggleButtonCheckbox {
+  border-radius: 6px;
+}
+
+.removeOptionBtn {
+  width: 32px;
+  height: 32px;
+}
+
+.addOptionBtnWrapper {
+  margin-top: 8px;
+}
+
+.addTypeButtons {
+  display: flex;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 8px;
+}
+
+.addTypeButton {
+  flex: 1;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-bottom: 60px;
+}
+
+.submitButton {
+  min-width: 140px;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+}

@@ -1,0 +1,78 @@
+.hero {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+
+.heroGradient {
+  background: linear-gradient(135deg, #8B5CF6 0%, #14B8A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSub {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  max-width: 600px;
+}
+
+.heroActions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.heroBtn {
+  padding: 16px 32px;
+  font-size: 1.125rem;
+}
+
+.featuresSection {
+  padding: 60px 0;
+}
+
+.featuresTitle {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.ctaSection {
+  padding: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(139, 92, 246, 0.1) 0%, rgba(20, 184, 166, 0.05) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.ctaBtn {
+  padding: 16px 40px;
+  font-size: 1.125rem;
+}
+
+.featureIconBox {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.featureTitle {
+  margin-bottom: 12px;
+}

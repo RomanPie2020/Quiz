@@ -1,0 +1,54 @@
+.header {
+  padding: 40px 0;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  font-size: 0.9375rem;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+}
+
+.metaItem svg {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.sectionTitle {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.questionsSection {
+  padding-bottom: 60px;
+}
+
+.loadingWrapper {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
